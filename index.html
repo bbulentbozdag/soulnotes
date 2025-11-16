@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SoulNotes</title>
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="app">
+
+        <h1 class="title">SoulNotes</h1>
+
+        <div id="card" class="card">
+            Telkin yükleniyor...
+        </div>
+
+        <div class="buttons">
+            <button id="newAffirm">Yeni Telkin</button>
+            <button id="saveFav">Favori</button>
+            <button id="newNote">Not Yaz</button>
+        </div>
+
+        <h2>Notların</h2>
+        <textarea id="noteBox" placeholder="Bugünün notunu yaz..."></textarea>
+        <button id="saveNote">Kaydet</button>
+
+        <h2>Favoriler</h2>
+        <div id="favList"></div>
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
